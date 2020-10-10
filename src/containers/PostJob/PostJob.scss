@@ -1,0 +1,25 @@
+@import '../../styles/main';
+
+
+.postjobContainer{
+    background: linear-gradient(0deg, $lightColor 55%,$primaryColor 45%);
+    min-height: calc(100vh - 69px);
+    color:$lightColor;
+    padding: 15px 15%;
+}
+
+.postjobContainer{ 
+    .card{
+        border-radius: 10px;
+        margin-top: 7% !important;
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        color:$primaryColor;
+ }
+}
+
+.accentColor{
+    color: $secondaryColor;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+@import '../../styles/main';
+
+.applyjobContainer{
+    background: linear-gradient(0deg, $lightColor 75%,$primaryColor 25%);
+    min-height: calc(100vh - 69px);
+    color:$lightColor;
+    padding: 15px 15%;
+}
+.applyjobContainer{
+.card {
+    box-shadow: 1px 1px 8px lightgray;
+    border: none;
+    color:$primaryColor;
+    min-height: 100%;
+  }
+}
+
+.card-title{
+    color: $secondaryColor;
+}
+
+.card-text{
+    padding-top: 20px;
+}
+
+.nojobs{
+    color: $primaryColor;
+    width: 50%;
+	height: 100px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.clipboard{
+    color: lightgray;
+    font-size: 100px;
+}

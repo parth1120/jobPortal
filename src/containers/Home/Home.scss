@@ -1,0 +1,59 @@
+@import '../../styles/main';
+
+.homeContainer{
+    background: rgb(67,175,255);
+background: linear-gradient(0deg, $lightColor 60%,$primaryColor 30%);
+}
+
+
+.intro{
+    color: #fff;
+    height: 50%;
+   padding: 100px 50px;
+   font-size: $font60;
+   align-items: center;
+}
+
+.innerWelcome{
+    padding: 0 0 0 30%;
+  }
+
+.mainText{
+  margin: auto;
+  width: 50%;
+  padding: 10px
+}
+
+.recruitment{
+    width: 80%;
+    border-radius: 5%;
+}
+
+.customJob{
+    color: $secondaryColor;
+}
+
+.secondHalf{
+    padding: 0% 20%;
+}
+
+.whyus{
+    color: $primaryColor;
+}
+
+.card {
+    box-shadow: 1px 1px 8px lightgray;
+    border: none
+}
+
+.card-title{
+    color: $secondaryColor;
+}
+
+.card-text{
+    padding-top: 20px;
+}
+
+.company{
+    font-size: 50px;
+}

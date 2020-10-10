@@ -1,0 +1,62 @@
+@import '../../styles/main';
+
+.headerMain{
+    background-color: $primaryColor;
+}
+
+.headerContainer{
+    margin: 0px 5%;
+    padding-top: 10px ;
+    border-bottom: 1px solid $secondaryColor;
+    display: block;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: $font20;
+    color: #fff;
+}
+
+.customJob{
+    color: $secondaryColor;
+}
+
+a {
+    color:$lightColor;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color:$lightColor;
+    text-decoration: none;
+}
+
+.initials{
+    background: $lightColor;
+    display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  vertical-align:middle;
+  margin-left:1em;
+}
+
+.drop{
+    top: 40px !important
+}
+
+.dropArrow{
+    font-size: $font20;
+    color:$lightColor;
+    margin-left:0.5em;
+}
+
+.is-active{
+    padding-bottom: 1rem;
+   border-bottom: 3px solid $secondaryColor;
+}

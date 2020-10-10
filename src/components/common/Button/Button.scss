@@ -1,0 +1,23 @@
+@import '../../../styles/main';
+
+.btn-primary{
+    color: #fff;
+    font-weight: 500;
+    background-color: $secondaryColor;
+    border-color: $secondaryColor;
+    min-width: 20%;
+}
+
+.btn-primary:hover{
+    background-color: $secondaryColor;
+    border-color: $secondaryColor;
+}
+.btn-outline-info {
+    color: #fff;
+    border-color: $secondaryColor;
+}
+
+.btn-outline-info:hover {
+    background-color: $secondaryColor;
+    border-color: $secondaryColor;
+}
